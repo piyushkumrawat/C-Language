@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    char s1='P';
+    printf("Character of s1 is %c",s1);
+
+    return 0;
+}
