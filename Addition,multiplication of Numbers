@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,x,y,z;
+    a=10,b=25,c=15;
+    x=a+b+c;
+    y=b-c;
+    z=b*c;
+    printf("Addition of a,b and c is %d\n",x);
+    printf("Substraction of b and c is %d\n",y);
+    printf("Multiplication of b and c is %d",z);
+
+    return 0;
+}
