@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[2][2];
+    int c,lengthRow, lengthCol;
+    a[0][0]=10;
+    a[0][1]=25;
+    a[1][0]=15;
+    a[1][1]=10;
+    c=a[0][0]+a[0][1]+a[1][0]+a[1][1];
+    lengthRow =  sizeof(a)/sizeof(a[0]);
+    lengthCol =  sizeof(a[0])/sizeof(a[0][0]);
+    printf("%d",lengthCol*lengthRow);
+    
+
+    return 0;
+}
