@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int c=sizeof(a);
+    printf("%d",c);
+
+    return 0;
+}
