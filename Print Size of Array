@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[3];
+    a[0]=10;
+    a[1]=25;
+    a[2]=15;
+    
+    int c=sizeof(a);
+    int z=sizeof(a[0]/c);
+    printf("%d",z);
+
+    return 0;
+}
