@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+struct sum
+{
+    int a,b,c;
+};
+void main()
+{
+    int a[3]={2,3,4},c;
+    int sum=a[0]+a[1]+a[2];
+    printf("%d\n",sum);
+    struct sum S;
+    S.a=2;
+    S.b=3;
+    S.c=4;
+    c=S.a+S.b+S.c;
+    printf("%d",c);
+}
