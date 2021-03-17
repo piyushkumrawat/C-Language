@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+
+int store1(int a, int b, int c)
+{
+    int d=a*b*c;
+    return d;
+}
+int store2(int a, int b, int c)
+{
+    int d = a+b+c;
+    return d;
+}
+int main()
+{
+    int s = store1(10,10,10) + store2(500,455,50);
+    printf("%d",s);
+}
