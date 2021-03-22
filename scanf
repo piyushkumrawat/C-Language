@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+void main()
+{
+    int a,b,c;
+   
+    printf("Enter the numbers");
+    printf("\nEnter value of a");
+    scanf("%d",&a);
+    printf("\nEnter value of b");
+    scanf("%d",&b);
+    printf("\nEnter value of c");
+    scanf("%d",&c);
+    
+    int d=a+b+c;
+    int x=a*b*c;
+    int y=a-b/c;
+    printf("%d\n",d);
+    printf("%d\n",x);
+    printf("%d\n",y);
+    
+}
