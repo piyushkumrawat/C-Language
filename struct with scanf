@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+struct piyush
+{
+  int a, b, c;
+} s;
+
+void main ()
+{
+  printf ("Enter value of a ");
+  scanf ("%d", &s.a);
+  printf ("Enter value of b ");
+  scanf ("%d", &s.b);
+  printf ("Enter value of c ");
+  scanf ("%d", &s.c);
+  int d = s.a + s.b + s.c;
+  printf ("Total sum is %d", d);
+
+}
