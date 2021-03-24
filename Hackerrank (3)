@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int n,m;
+    float x,y;
+    scanf("%d %d",&n,&m);
+    scanf("%f %f",&x,&y);
+    int c=n+m;
+    int d=n-m;
+    float z=x+y;
+    float s=x-y;
+    printf("%d %d\n",c,d);
+    printf("%.1f %.1f",z,s);  
+    
+    
+    return 0;
+}
