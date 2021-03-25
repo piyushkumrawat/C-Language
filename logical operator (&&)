@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main()
+{
+    int m;
+    scanf("%d",&m);
+    if(m>=00&&m<33){
+        printf("Fail");
+    }
+    if(m>=33&&m<60){
+        printf("Marks of student is %d\nGrade D",m);
+    }
+    if(m>=60&&m<75){
+        printf("Marks of student is %d\nGrade C",m);
+    }
+    if(m>=75&&m<85){
+    printf("Marks of student is %d\nGrade B",m);
+    }
+    if(m>=85&&m<90){
+        printf("Marks of student is %d\nGrade B+",m);
+    }
+    if(m>=90&&m<95){
+        printf("Marks of student is %d\nGrade A",m);
+    }
+    if(m>=95&&m<=100){
+        printf("Marks of student is %d\nGrade A+",m);
+    }
+    
+}
