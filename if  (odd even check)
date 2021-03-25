@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    int ans;
+    printf("Enter value of a ");
+    scanf("%d",&a);
+    printf("Enter value of b ");
+    scanf("%d",&b);
+    printf("Enter value of c ");
+    scanf("%d",&c);
+    ans=a+b+c;
+    
+    printf("%d\n",ans);
+    if(ans%2==0 ){
+        printf("Given ans is even number %d",ans);
+    }
+    else{
+        printf("Given ans is odd number %d",ans);
+    }
+    return 0;
+}
