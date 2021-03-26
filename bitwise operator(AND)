@@ -2,7 +2,7 @@
 int main()
 {
     int a,b;
-    /*Biteise operator convert given value into bit(binary code) and multiply both codes*/
+    /*Bitwise operator convert given value into bit(binary code) and multiply both codes*/
     scanf("%d\n",&a);
     scanf("%d",&b);
     printf("%d",a&b);
