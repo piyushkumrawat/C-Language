@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    /*Biteise OR operator convert given value into bit(binary code) and add both codes*/
+    /* 7=111(in binary), 4=100(in binary) */
+    
+    scanf("%d\n",&a);
+    scanf("%d",&b);
+    printf("%d",a^b);
+}
