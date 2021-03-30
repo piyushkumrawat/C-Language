@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    /*left shift, shift  1  block in binary code*/
+    scanf("%d",&a);
+    printf("%d",a<<2);
+}
