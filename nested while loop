@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=1,i;
+    printf("Table of %d",i);
+    scanf("%d",&i); 
+    while(a<=10){
+        printf("%d\n",a*i);
+        a++;
+    }
+    return 0;
+}
