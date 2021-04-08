@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a=10,i,temp;
+    int b[] = {1,2,3,4,5,0,8};
+    int x = sizeof(b)/sizeof(b[0]);
+
+    for(i=0;i<x;i++)
+    {
+        if(b[i]==0)
+        {
+            printf("can't divide by 0\n");
+            continue ;
+        }
+        temp=a/b[i];
+        printf("%d\n",temp);
+    }
+
+    return 0;
+}
