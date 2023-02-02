@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int no_of_row , no_of_col;
+    cout<<"Enter number of rows ";
+    cin >> no_of_row;
+    cout << "Enter number of column ";
+    cin >> no_of_col;
+    
+    for(int line = 0 ; line < no_of_row ; line++){
+        for(int i=0;i<no_of_col;i++){
+            cout<<"*";
+        }
+        cout <<"\n";
+    }
+    
+}
